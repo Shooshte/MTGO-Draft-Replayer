@@ -1,0 +1,468 @@
+Event #: 7960543
+Time:    7.2.2015 22:22:36
+Players:
+    mkennedymma
+    robvegas
+    Amana
+    Caracalles
+    NewClear
+    fiat11
+    MBauer88
+--> Susti
+
+------ FRF ------ 
+
+Pack 1 pick 1:
+    Cunning Strike
+    Arashin Cleric
+    Aven Surveyor
+    Typhoid Rats
+    Ethereal Ambush
+    Dragon Bell Monk
+    Map the Wastes
+    Lightning Shrieker
+    Ainok Guide
+    Sandsteppe Outcast
+    Mistfire Adept
+    Qarsi High Priest
+    Pilgrim of the Fires
+--> Temur War Shaman
+    Jungle Hollow
+
+Pack 1 pick 2:
+    Sultai Emissary
+    Jeskai Runemark
+    Sandblast
+    Jeskai Sage
+    Sibsig Host
+    Mardu Runemark
+    Collateral Damage
+    Temur Runemark
+    Write into Being
+--> Bathe in Dragonfire
+    Mardu Shadowspear
+    Sudden Reclamation
+    Friendly Fire
+    Bloodfell Caves
+
+Pack 1 pick 3:
+    Refocus
+    Hooded Assassin
+    Enhanced Awareness
+    Typhoid Rats
+    Grim Contest
+    Temur Battle Rage
+    Hunt the Weak
+    Fierce Invocation
+    Temur Runemark
+    Winds of Qal Sisma
+    Mindscour Dragon
+    Channel Harm
+--> Thornwood Falls
+
+Pack 1 pick 4:
+    Refocus
+    Hooded Assassin
+    Abzan Skycaptain
+    Enhanced Awareness
+    Typhoid Rats
+    Grim Contest
+    Temur Battle Rage
+    Hunt the Weak
+    Fierce Invocation
+    Temur Runemark
+    Fearsome Awakening
+--> Swiftwater Cliffs
+
+Pack 1 pick 5:
+    Arashin Cleric
+--> Whisk Away
+    Sibsig Host
+    Frontier Mastodon
+    Defiant Ogre
+    Ainok Guide
+    Alesha's Vanguard
+    Gore Swine
+    Battlefront Krushok
+    Shifting Loyalties
+    Dismal Backwater
+
+Pack 1 pick 6:
+    Pressure Point
+    Aven Skirmisher
+--> Lotus Path Djinn
+    Douse in Gloom
+    Abzan Advantage
+    Collateral Damage
+    Formless Nurturing
+    Sandsteppe Outcast
+    Frost Walker
+    Dismal Backwater
+
+Pack 1 pick 7:
+    War Flare
+    Arashin Cleric
+--> Whisk Away
+    Sibsig Host
+    Defiant Ogre
+    Alesha's Vanguard
+    Gore Swine
+    Rite of Undoing
+    Bloodfell Caves
+
+Pack 1 pick 8:
+    Sultai Emissary
+    Jeskai Runemark
+    Sibsig Host
+--> Collateral Damage
+    Temur Runemark
+    Dark Deal
+    Honor's Reward
+    Jungle Hollow
+
+Pack 1 pick 9:
+    Arashin Cleric
+    Typhoid Rats
+    Lightning Shrieker
+--> Ainok Guide
+    Qarsi High Priest
+    Pilgrim of the Fires
+    Jungle Hollow
+
+Pack 1 pick 10:
+    Sultai Emissary
+    Sibsig Host
+    Mardu Runemark
+--> Collateral Damage
+    Temur Runemark
+    Sudden Reclamation
+
+Pack 1 pick 11:
+    Refocus
+    Hooded Assassin
+    Typhoid Rats
+    Grim Contest
+--> Fierce Invocation
+
+Pack 1 pick 12:
+    Hooded Assassin
+    Grim Contest
+--> Temur Battle Rage
+    Fearsome Awakening
+
+Pack 1 pick 13:
+    Sibsig Host
+--> Defiant Ogre
+    Dismal Backwater
+
+Pack 1 pick 14:
+--> Abzan Advantage
+    Dismal Backwater
+
+Pack 1 pick 15:
+--> Sibsig Host
+
+------ FRF ------ 
+
+Pack 2 pick 1:
+    Reach of Shadows
+    Harsh Sustenance
+    Pressure Point
+    Whisk Away
+    Goblin Heelcutter
+    Ambush Krotiq
+    Gore Swine
+    Frontier Mastodon
+    Alesha's Vanguard
+    Defiant Ogre
+    Ruthless Instincts
+    Rite of Undoing
+    Pilgrim of the Fires
+--> Supplant Form
+    Swiftwater Cliffs
+
+Pack 2 pick 2:
+    Pressure Point
+    Aven Skirmisher
+    Douse in Gloom
+    Ethereal Ambush
+    Abzan Advantage
+    Map the Wastes
+    Collateral Damage
+    Formless Nurturing
+    Sandsteppe Outcast
+    Frost Walker
+    Diplomacy of the Wastes
+    Humble Defector
+--> Flamewake Phoenix
+    Scoured Barrens
+
+Pack 2 pick 3:
+    Dragon Bell Monk
+    Rakshasa's Disdain
+    Gurmag Angler
+    Abzan Advantage
+    Will of the Naga
+    Sultai Runemark
+    Tasigur's Cruelty
+    Mardu Scout
+    Feral Krushok
+    Lightning Shrieker
+--> Abzan Beastmaster
+    Goblin Boom Keg
+    Swiftwater Cliffs
+
+Pack 2 pick 4:
+--> Cunning Strike
+    Abzan Runemark
+    Rakshasa's Disdain
+    Reach of Shadows
+    Grim Contest
+    Aven Skirmisher
+    Tasigur's Cruelty
+    Temur Battle Rage
+    Return to the Earth
+    Mardu Scout
+    Fascination
+    Wind-Scarred Crag
+
+Pack 2 pick 5:
+    Harsh Sustenance
+    Pressure Point
+    Ambush Krotiq
+    Gore Swine
+    Frontier Mastodon
+    Alesha's Vanguard
+    Defiant Ogre
+--> Arashin War Beast
+    Shifting Loyalties
+    Dragonrage
+    Rugged Highlands
+
+Pack 2 pick 6:
+    Abzan Runemark
+    Ancestral Vengeance
+    War Flare
+    Sultai Skullkeeper
+    Archers of Qarsi
+--> Smoldering Efreet
+    Return to the Earth
+    Great-Horn Krushok
+    Sibsig Muckdraggers
+    Bloodfire Enforcers
+
+Pack 2 pick 7:
+--> Cunning Strike
+    Arashin Cleric
+    Typhoid Rats
+    Ethereal Ambush
+    Dragon Bell Monk
+    Map the Wastes
+    Lightning Shrieker
+    Fascination
+    Wind-Scarred Crag
+
+Pack 2 pick 8:
+    Refocus
+    Hooded Assassin
+    Typhoid Rats
+    Grim Contest
+--> Temur Battle Rage
+    Temur Runemark
+    Grave Strength
+    Goblin Boom Keg
+
+Pack 2 pick 9:
+    Reach of Shadows
+    Pressure Point
+--> Ambush Krotiq
+    Alesha's Vanguard
+    Defiant Ogre
+    Rite of Undoing
+    Pilgrim of the Fires
+
+Pack 2 pick 10:
+    Pressure Point
+    Aven Skirmisher
+    Douse in Gloom
+--> Ethereal Ambush
+    Abzan Advantage
+    Diplomacy of the Wastes
+
+Pack 2 pick 11:
+--> Rakshasa's Disdain
+    Abzan Advantage
+    Sultai Runemark
+    Tasigur's Cruelty
+    Goblin Boom Keg
+
+Pack 2 pick 12:
+    Abzan Runemark
+    Grim Contest
+    Tasigur's Cruelty
+--> Fascination
+
+Pack 2 pick 13:
+--> Defiant Ogre
+    Shifting Loyalties
+    Dragonrage
+
+Pack 2 pick 14:
+    Ancestral Vengeance
+--> Great-Horn Krushok
+
+Pack 2 pick 15:
+--> Fascination
+
+------ FRF ------ 
+
+Pack 3 pick 1:
+--> Lotus Path Djinn
+    Sultai Emissary
+    Harsh Sustenance
+    Abzan Skycaptain
+    Jeskai Runemark
+    Douse in Gloom
+    Archers of Qarsi
+    Fierce Invocation
+    Feral Krushok
+    Great-Horn Krushok
+    Reality Shift
+    Fearsome Awakening
+    Sage's Reverie
+    Frontier Siege
+    Dismal Backwater
+
+Pack 3 pick 2:
+    Abzan Runemark
+    Aven Surveyor
+    Ancestral Vengeance
+    War Flare
+    Soul Summons
+    Sultai Skullkeeper
+    Archers of Qarsi
+    Smoldering Efreet
+    Return to the Earth
+    Great-Horn Krushok
+    Merciless Executioner
+    Lotus-Eye Mystics
+--> Wild Slash
+    Bloodfell Caves
+
+Pack 3 pick 3:
+    Cunning Strike
+    Abzan Runemark
+    Rakshasa's Disdain
+    Reach of Shadows
+    Grim Contest
+    Aven Skirmisher
+    Tasigur's Cruelty
+    Temur Battle Rage
+    Return to the Earth
+    Mardu Scout
+    Destructor Dragon
+--> Cloudform
+    Thornwood Falls
+
+Pack 3 pick 4:
+    Sultai Skullkeeper
+    Sandblast
+    Sultai Runemark
+--> Jeskai Sage
+    Hooded Assassin
+    Whisperer of the Wilds
+    Mardu Runemark
+    Ambush Krotiq
+    Write into Being
+    Qarsi High Priest
+    Ugin's Construct
+    Sage's Reverie
+
+Pack 3 pick 5:
+    Enhanced Awareness
+    Gurmag Angler
+    Refocus
+    Soul Summons
+    Will of the Naga
+    Ancestral Vengeance
+    Smoldering Efreet
+    Mardu Runemark
+    Orc Sureshot
+--> Hungering Yeti
+    Blossoming Sands
+
+Pack 3 pick 6:
+    Enhanced Awareness
+    Gurmag Angler
+    Refocus
+    Soul Summons
+    Will of the Naga
+    Ancestral Vengeance
+--> Smoldering Efreet
+    Lotus-Eye Mystics
+    Break Through the Line
+    Dismal Backwater
+
+Pack 3 pick 7:
+    Sultai Emissary
+    Harsh Sustenance
+--> Jeskai Runemark
+    Douse in Gloom
+    Archers of Qarsi
+    Fierce Invocation
+    Feral Krushok
+    Channel Harm
+    Scoured Barrens
+
+Pack 3 pick 8:
+    Sultai Emissary
+    Harsh Sustenance
+    Douse in Gloom
+    Archers of Qarsi
+--> Fierce Invocation
+    Feral Krushok
+    Great-Horn Krushok
+    Merciless Executioner
+
+Pack 3 pick 9:
+    Sultai Emissary
+    Harsh Sustenance
+--> Jeskai Runemark
+    Archers of Qarsi
+    Fierce Invocation
+    Great-Horn Krushok
+    Dismal Backwater
+
+Pack 3 pick 10:
+    Abzan Runemark
+    Ancestral Vengeance
+--> Sultai Skullkeeper
+    Smoldering Efreet
+    Return to the Earth
+    Great-Horn Krushok
+
+Pack 3 pick 11:
+    Abzan Runemark
+    Grim Contest
+    Aven Skirmisher
+    Tasigur's Cruelty
+--> Return to the Earth
+
+Pack 3 pick 12:
+    Sultai Runemark
+--> Ambush Krotiq
+    Qarsi High Priest
+    Sage's Reverie
+
+Pack 3 pick 13:
+--> Soul Summons
+    Will of the Naga
+    Ancestral Vengeance
+
+Pack 3 pick 14:
+    Soul Summons
+--> Ancestral Vengeance
+
+Pack 3 pick 15:
+--> Sultai Emissary
+
