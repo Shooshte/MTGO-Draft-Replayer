@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>MTGO draft replayer 0.3.4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="cardcontainer">
+            <div class ="startMessage">
+                <br/>
+                Welcome to the TopdeckAndWreck.com MTGO Draft Replayer!<br/>
+                <br/>
+                In case you're not sure where and how to start check out our <a href='www.topdeckandwreck.com/MTGO/DraftReplayer/Tutorial.html'>tutorial</a> or <a href='www.topdeckandwreck.com/MTGO/DraftReplayer/FAQ.html'>FAQ</a> pages.<br/>
+                <br/>
+                Thanks for visiting and have fun!
+            </div>
+            <div class="cardbox">
+                <img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" 
+                /><img class="card" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" />
+            </div
+            ><div class="previewbox"
+               ><img class="cardpreview" alt="card missing" src="http://mtgimage.com/card/cardback.jpg" />
+                <a class="previewtext">Explanation text</a>
+            </div>
+        </div>
+        
+        <div class="options">
+            <input type="file" name="draftlog" id="draftlog">
+            <input type='checkbox' name='prePick' id='prePick'> Show Logged Picks
+            <input type='checkbox' name='Timer' disabled> Timed Draft
+        </div> 
+        
+        <div class="picksbox">
+        <div class="picks"></div
+        ><div class="picks"></div
+        ><div class="picks"></div
+        ><div class="picks"></div>
+        </div>
+        
+        <div class="donate">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+    ">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+        <script src="magic.js"></script>
+        
+    </body>
+</html>
