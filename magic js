@@ -1,0 +1,251 @@
+var prelink = "http://mtgimage.com/card/";
+var postlink = ".jpg";
+
+var booster = 1;
+var pick = 0;
+var currentCards = 15;
+
+var sortingCardsInt = 0;
+
+var cards = [];
+for(t=0;t<45;t++) {
+    cards.push([]);
+}
+var picks = [];
+
+$("#draftlog").change(function() {
+    //hides start message, tip jar
+    $('.startMessage').css('display', 'none');
+    //shows cardbox, previewbox
+    $('.cardbox').css('display', 'inline-block');
+    $('.previewbox').css('display', 'inline-block');
+    //shows picks list
+    $('.picks').eq(0).css('display', 'inline-block');
+    $('.picks').eq(1).css('display', 'inline-block');
+    $('.picks').eq(2).css('display', 'inline-block');
+    $('.picks').eq(3).css('display', 'inline-block');
+    //removes card container background
+    $('.cardcontainer').css('background-image','none');
+    
+    clearCards();
+    resetDraft();
+    //gets first file from draftlog
+    var filenumber = $('#draftlog').get(0).files.length;
+    filenumber--;
+    logFile = $('#draftlog').get(0).files[filenumber];
+    //reads file from draftlog as text
+    var reader = new FileReader;
+    reader.readAsText(logFile);
+    reader.onload = function(e) {
+    var rawLog = reader.result;  
+    
+    //splits the text into an array of strings for every new line
+    var re=/\r\n|\n\r|\n|\r/g;
+    arrayOfLines = rawLog.replace(re,"\n").split("\n");    
+    //removes "    "
+    for(x=0;x<arrayOfLines.length;x++) {
+        arrayOfLines[x] = arrayOfLines[x].replace(/    /g,'');
+    }    
+    //sorts cards into pick arrays
+    sortCards(15);
+    sortCards(167);
+    sortCards(319);
+    //tags picked card
+    for(y=0;y<cards.length;y++) {
+        for(x=0;x<cards[y].length;x++) {
+            var start = cards[y][x].substring(0,4);
+            if(start === "--> ") {
+                picks.push(x);
+                cards[y][x] = cards[y][x].replace(/--> /g,'');
+            }
+        }
+    }    
+    //turns picks into links
+    for(y=0;y<cards.length;y++) {
+    for(x=0;x<cards[y].length;x++) {
+        cards[y][x] = prelink.concat(cards[y][x]);
+        cards[y][x] = cards[y][x].concat(postlink);
+        cards[y][x] = cards[y][x].replace(/ /g,'_');
+    }
+    }
+    loadCards();
+};
+});
+
+$(".card").hover(
+    function () {
+        $('.cardpreview').attr('src', $(this).attr('src'));
+        if($(this).hasClass('selected')) {
+            $('.previewtext').text("Click on the card again to pick it.");
+        }
+        else if($(this).hasClass('historyPick')) {
+            $('.previewtext').text("This is the card the original drafter picked.");
+        }
+        else if($(this).hasClass('selected') && $(this).hasClass('historyPick')) {
+            $('.previewtext').text("Click on the card again to pick it.");
+        }
+        else {
+            $('.previewtext').text("Click on the card in order to tag it(the tagged card is picked if you run out of time).");
+        }
+    },
+    function () {
+        $('.cardpreview').attr('src', 'http://mtgimage.com/card/cardback.jpg');
+        $('.previewtext').text("");
+});
+        
+$(".card").click(function () {
+    if ($(this).hasClass('selected')) {
+        //formats and appends cardname onto related div
+        var cardname = $(this).attr('src');
+        cardname = cardname.replace("http://mtgimage.com/card/",'');
+        cardname = cardname.replace(".jpg",'');
+        cardname = cardname.replace(/_/g,' ');
+        if(pick < 12){
+            $(".picks").eq(0).append('<a class="picksave">'+cardname+'</a>');
+        }
+        else if(pick >= 12 && pick < 24){
+            $(".picks").eq(1).append('<a class="picksave">'+cardname+'</a>');   
+        }
+        else if(pick >= 24 && pick < 36){
+            $(".picks").eq(2).append('<a class="picksave">'+cardname+'</a>');
+        }
+        else if(pick >= 36){
+            $(".picks").eq(3).append('<a class="picksave">'+cardname+'</a>');
+        }
+        //counts pick, changes currentCards number
+        if (currentCards > 1) {
+            pick++;
+            currentCards--;
+        //opens next booster    
+        } else {
+            pick++;
+            booster++;
+            currentCards = 15;
+        }
+        clearCards();
+        loadCards();
+    } else {
+        //clears all card borders to white, colors history pick
+        for(x=0;x<15;x++) {
+            $('.card').eq(x).removeClass('selected');
+            $('.card').eq(x).css('border','4px solid white');
+            if($('#prePick').prop('checked')) {
+            $('.historyPick').css('border', '4px solid lime');
+            }
+        }
+        //selects card, makes border gray
+        $(this).addClass('selected');
+        $(this).css('border', '4px solid gray');        
+        }
+});
+
+//reloads cards when Show Logged Picks is checked/unchecked
+$('[type=checkbox][name="prePick"]').on('change', function() {
+    if (this.checked) {
+        if($('.card').css('display') === 'inline') {
+        clearCards();
+        loadCards();
+        }
+    }
+    else {
+        if($('.card').css('display') === 'inline') {
+        clearCards();
+        loadCards();
+        }
+    }
+  });
+//previews picksave as image
+$('.picks').on('mouseenter', '.picksave', 
+    function(){
+        var cardimage = $(this).text();
+        cardimage = prelink.concat(cardimage);
+        cardimage = cardimage.concat(postlink);
+        $('.cardpreview').attr('src', cardimage);
+        if(pick<45) {
+            $('.previewtext').text("This is the card you picked. After you're done drafting you'll be able to put it into a deck!");
+        }
+    });
+    
+$('.picks').on('mouseleave', '.picksave', 
+    function(){
+        $('.cardpreview').attr('src', 'http://mtgimage.com/card/cardback.jpg');
+        $('.previewtext').text("");    
+    });
+    
+$('.cardbox').on('mouseenter', '.picksave', 
+    function(){
+        var cardimage = $(this).text();
+        cardimage = prelink.concat(cardimage);
+        cardimage = cardimage.concat(postlink);
+        $('.cardpreview').attr('src', cardimage);
+        if(pick<45) {
+            $('.previewtext').text("This is the card you picked. After you're done drafting you'll be able to put it into a deck!");
+        }
+    });
+    
+$('.cardbox').on('mouseleave', '.picksave', 
+    function(){
+        $('.cardpreview').attr('src', 'http://mtgimage.com/card/cardback.jpg');
+        $('.previewtext').text("");    
+    });    
+
+//appends picksave onto decklist
+$('.picks').on('click', '.picksave', function(){
+    if(pick>=45) {
+        clearCards();
+        $('.cardbox').append(this);
+    }
+});
+function resetDraft() {
+    booster = 1;
+    pick = 0;
+    currentCards = 15;
+
+    sortingCardsInt = 0;
+
+    cards = [];
+    for(t=0;t<45;t++) {
+        cards.push([]);
+    }
+    picks = [];
+    
+    $('.picks').empty();
+}
+function loadCards() {    
+    //writes pick onto cards, makes them visible
+    for(x=0;x<currentCards;x++) {
+        $(".card").eq(x).attr('src', cards[pick][x]);
+        $(".card").eq(x).css('display', 'inline');
+        if($('#prePick').prop('checked')) {
+        $(".card").eq(picks[pick]).addClass('historyPick');
+        $('.card').eq(picks[pick]).css('border', '4px solid lime');
+        }
+    }
+};
+
+function clearCards() {
+    //wipes all cards
+    for(x=0;x<15;x++) {
+        $('.card').eq(x).css('display', 'none');
+        $('.card').eq(x).attr('src', 'http://mtgimage.com/card/cardback.jpg');
+        $('.card').eq(x).removeClass('historyPick selected');
+        $('.card').eq(x).css('border', '4px solid white');
+    }
+}
+
+function sortCards(num) {
+    var currentLine = num;
+    var numCards = 15;
+    var pickNumber = 0;
+    
+    for(y=0;pickNumber<15;y++) {
+        for(x=0;x<numCards;x++) {
+            cards[sortingCardsInt].push(arrayOfLines[currentLine]);
+            currentLine++;
+        }
+        pickNumber++;
+        sortingCardsInt++;
+        numCards--;
+        currentLine +=2;
+    }
+}
